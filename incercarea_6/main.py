@@ -40,11 +40,11 @@ main_x = 320.5
 main_y = 240.5
 
 if os.name == 'posix':
-    from periphery import PWM
-    pwm_x = PWM(0, 0)  # (Pin 32)
-    pwm_y = PWM(1, 0)  # (Pin 33)
-    pwm_x.frequency = 50
-    pwm_y.frequency = 50
+    #from periphery import PWM
+    #pwm_x = PWM(0, 0)  # (Pin 32)
+    #pwm_y = PWM(1, 0)  # (Pin 33)
+    #pwm_x.frequency = 50
+    #pwm_y.frequency = 50
     import board
     import pwmio
     from adafruit_motor import servo
